@@ -2,7 +2,7 @@ import sys
 import telebot
 import telebot.types
 
-bot = telebot.TeleBot('5050007938:AAGTbhz9ufiRgIfDuiw0SS1eMd6DdNJTQ6k')
+bot = telebot.TeleBot('ITS SECRET:)')
 
 @bot.message_handler(content_types=['text'])
 def compiler(message: telebot.types.Message):
